@@ -1,0 +1,7 @@
+# Dependencies for Task 3: Python MongoDB Client using PyMongo
+pymongo>=4.6.0
+mongomock>=4.3.0
+pandas>=2.0.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+tabulate>=0.9.0
