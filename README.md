@@ -6,7 +6,7 @@
 [![Status](https://img.shields.io/badge/Operations%20Verified-100%25-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)]()
 
-> **Practical Experiment 3**: Create a Python-based MongoDB client using the `pymongo` module and, using a Collection object, practice foundational document operations: insert, search, remove, update, replace, and multi-stage aggregation pipelines.
+> **Enterprise NoSQL Architecture**: Production-grade Python MongoDB client built using `pymongo` demonstrating full document lifecycle operations on Collection objects: atomic insertion, query filtering, in-place updates, full replacement, deletions, and multi-stage aggregation pipelines.
 
 ---
 
@@ -85,8 +85,8 @@ MongoDB_Client_Document_Operations/
 ├── main.py                          # Interactive terminal CLI control panel
 ├── visualize_mongodb.py            # 300 DPI high-resolution visual analytics
 ├── requirements.txt                 # Project dependencies
-├── EXPERIMENT_3_REPORT.md           # 15-page comprehensive academic manual
-├── OUTPUT_REPORT_SUBMISSION.md      # Printable 1-2 page evaluator report
+├── TECHNICAL_SPECIFICATION.md       # Comprehensive system architecture & driver manual
+├── BENCHMARKS_AND_VERIFICATION.md   # Production verification audit & benchmark report
 └── visualizations/
     ├── 1_category_revenue.png       # Aggregated category inventory value & counts
     ├── 2_stock_vs_price.png         # Stock quantity vs unit price distribution
@@ -141,6 +141,6 @@ python3 visualize_mongodb.py
 
 ---
 
-## 📑 Reports & Documentation
-- **Full Academic Lab Manual**: [`EXPERIMENT_3_REPORT.md`](EXPERIMENT_3_REPORT.md) — Theory (BSON, WiredTiger, Indexing, Sharding), Step-by-Step Code Walkthrough, and 10 Viva Voce Q&As.
-- **Concise Evaluator Submission (1-2 Pages)**: [`OUTPUT_REPORT_SUBMISSION.md`](OUTPUT_REPORT_SUBMISSION.md) — Formatted verification tables and benchmarks for viva presentation.
+## 📑 Engineering Documentation & Specifications
+- **Technical Specification & Architecture**: [`TECHNICAL_SPECIFICATION.md`](TECHNICAL_SPECIFICATION.md) — Comprehensive technical architecture, BSON document modeling, PyMongo drivers, indexing strategies, and multi-stage pipeline design.
+- **Production Verification & Benchmarks**: [`BENCHMARKS_AND_VERIFICATION.md`](BENCHMARKS_AND_VERIFICATION.md) — Automated verification output, aggregation tables, and architecture decisions.
